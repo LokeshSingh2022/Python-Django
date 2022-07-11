@@ -1,0 +1,33 @@
+# Link To Maps I have use in the testing Procedure of program 
+# used to find distance between two or multiple GeoLocations :-
+Link:- "https://www.google.com/maps/d/edit?mid=16yEoJ6ex6CDeTIDrrMXul08WV0M-Sa4&usp=sharing"
+
+
+##------Testing 1 b/w points a-b -----::
+
+Co-ordinates:-
+a:      26.19339, 73.11566
+b:      18.66547, 81.13568
+
+Actual Distance:    1175 km
+S/w Distance:       1174.2845 km
+
+
+##------Testing 2 b/w points a-a.1 -----::
+
+Co-ordinates:-
+a:      26.19339, 73.11566
+a.1:    26.06354, 73.26609
+
+Actual Distance:    20.90 km
+S/w Distance:       20.81 km
+
+
+##------Testing 3 b/w points a.1-a.2 -----::
+
+Co-ordinates:-
+a.1:    26.06354, 73.26609
+a.2:    25.98418, 73.35779
+
+Actual Distance:    12.71 km
+S/w Distance:       12.71 km
