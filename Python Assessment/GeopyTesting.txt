@@ -1,33 +1,46 @@
 # Link To Maps I have use in the testing Procedure of program 
 # used to find distance between two or multiple GeoLocations :-
-Link:- "https://www.google.com/maps/d/edit?mid=16yEoJ6ex6CDeTIDrrMXul08WV0M-Sa4&usp=sharing"
+Link:- "https://www.google.com/maps/d/edit?mid=1YK6rI1EKY-Eso47JvVfsXn1HAxDhBPU&usp=sharing"
 
 
-##------Testing 1 b/w points a-b -----::
+##------Testing 1 b/w Coordinates [(34.15191, 77.57611), (34.15124, 77.57662)] -----::
 
-Co-ordinates:-
-a:      26.19339, 73.11566
-b:      18.66547, 81.13568
+Actual Distance:     88 Meters
+S/w Distance:        88.05000257940735 Meters
 
-Actual Distance:    1175 km
-S/w Distance:       1174.2845 km
+##------Testing 2 b/w Coordinates [(34.15191, 77.57611), (34.15057, 77.57714)] -----::
 
+Actual Distance:     176 Meters
+S/w Distance:        176.59409639359046 Meters
 
-##------Testing 2 b/w points a-a.1 -----::
+##------Testing 3 b/w Coordinates [(34.15191, 77.57611), (34.14958, 77.578)] -----::
 
-Co-ordinates:-
-a:      26.19339, 73.11566
-a.1:    26.06354, 73.26609
+Actual Distance:     312 Meters
+S/w Distance:        312.1714787117867 Meters
 
-Actual Distance:    20.90 km
-S/w Distance:       20.81 km
+##------Testing 4 b/w Coordinates [(34.15191, 77.57611), (34.14859, 77.57886)] -----::
 
+Actual Distance:     448 Meters
+S/w Distance:        447.74940245421453 Meters
 
-##------Testing 3 b/w points a.1-a.2 -----::
+##------Testing 5 b/w Coordinates [(34.15191, 77.57611), (34.14729, 77.58)] -----::
 
-Co-ordinates:-
-a.1:    26.06354, 73.26609
-a.2:    25.98418, 73.35779
+Actual Distance:     627 Meters
+S/w Distance:        626.3587830110815 Meters
 
-Actual Distance:    12.71 km
-S/w Distance:       12.71 km
+##------Testing 6 b/w Coordinates [(34.15191, 77.57611), (34.14599, 77.58114)] -----::
+
+Actual Distance:     806 Meters
+S/w Distance:        804.9691118291296 Meters
+
+##------Testing 7 b/w Coordinates [(34.15191, 77.57611), (34.14405, 77.58283)] -----::
+
+Actual Distance:     1070 Meters
+S/w Distance:        1070.906689970277 Meters
+
+##------Testing 8 b/w Coordinates [(34.15191, 77.57611), (34.14211, 77.5845)] -----::
+
+Actual Distance:     1338 Meters
+S/w Distance:        1335.7741336298977 Meters
+
+##-----The Total distance would be: 1335.7741336298977 Meters-----::
