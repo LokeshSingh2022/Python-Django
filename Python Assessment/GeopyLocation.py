@@ -21,6 +21,7 @@ def total_distance(lst):
         i += 1
         x -= 1
         d += GC(coords_1,coords_2).meters
+        print(d)
     return d
 
 print(f"The Total distance would be: {total_distance(data)} Meters")
