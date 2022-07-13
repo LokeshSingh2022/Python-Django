@@ -1,0 +1,38 @@
+##-----Program to find thatn if two geo coordinates are given along with the radius 
+-----the find 2nd point will lie within the curcumference or not: -----##
+
+lst = [(29.38305, 79.46473), (29.38291, 79.46472), (29.38298, 79.46483), (29.38298, 79.46483), (29.38304, 79.46489), (29.38293, 79.46506), (29.38304, 79.46506), (29.38309, 79.46501)]
+center_Coord = (29.38308, 79.46486)
+
+#-----(Testing - 1)-----#
+
+Program to find that any point is bounded by another point of radius '19.88': 
+Point (29.38291, 79.46472) is inside the Circle.
+Point (29.38298, 79.46483) is outside the Circle.
+Point (29.38298, 79.46483) is inside the Circle.
+Point (29.38304, 79.46489) is inside the Circle.
+Point (29.38293, 79.46506) is inside the Circle.
+Point (29.38304, 79.46506) is outside the Circle.
+Point (29.38309, 79.46501) is on the Circle.
+
+#-----(Testing - 2)-----#
+
+Program to find that any point is bounded by another point of radius '31.87': 
+Point (49.38298, 19.26483) is on the Circle.
+Point (49.38258, 19.26783) is outside the Circle.
+Point (49.38309, 19.26501) is on the Circle.
+Point (49.38304, 19.26489) is inside the Circle.
+Point (49.38293, 19.26506) is inside the Circle.
+Point (49.38304, 19.26506) is outside the Circle.
+Point (49.38309, 19.26501) is on the Circle.
+
+#-----(Testing - 3)-----#
+
+Program to find that any point is bounded by another point of radius '63.42': 
+Point (59.68291, 39.76872) is inside the Circle.
+Point (59.68298, 39.76883) is on the Circle.
+Point (59.68298, 39.77683) is outside the Circle.
+Point (59.68304, 39.76889) is inside the Circle.
+Point (59.68298, 39.76883) is inside the Circle.
+Point (59.68304, 39.76306) is outside the Circle.
+Point (59.68309, 39.76401) is on the Circle.

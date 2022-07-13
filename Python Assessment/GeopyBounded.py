@@ -2,17 +2,21 @@ print("\nProgram to find that any point is bounded by another point of radius 'r
 
 from geopy.distance import great_circle as D
 
-data = [(29.37996, 79.46684), (29.37996, 79.46689)]
+lst = [(29.38305, 79.46473), (29.38291, 79.46472), (29.38298, 79.46483), (29.38298, 79.46483), (29.38304, 79.46489), (29.38293, 79.46506), (29.38304, 79.46506), (29.38309, 79.46501)]
+center_Coord = (29.38308, 79.46486)
+Radius = 19.88205852403358
+n = len(lst)-1
 
-radius = 4.844688950131238
-coord_1 = data[0]
-coord_2 = data[1]
-
-dist = D(coord_1, coord_2).meters
-
-if dist < radius:
-    print(f"Point is inside the Enclosed Boundary\n")
-elif dist > radius:
-    print(f"Point is outside the Enclosed Boundary\n")
-else:
-    print(f"Point is In the Boundary\n")
+i=0
+while n:
+    coords_1 = center_Coord
+    coords_2 = lst[i]
+    i+=1
+    n-=1
+    dist = D(coords_1,coords_2).meters
+    if dist < Radius:
+        print(f"Point {lst[i]} is inside the Circle.")
+    elif dist > Radius:
+        print(f"Point {lst[i]} is outside the Circle.")
+    else:
+        print(f"Point {lst[i]} is on the Circle.")
