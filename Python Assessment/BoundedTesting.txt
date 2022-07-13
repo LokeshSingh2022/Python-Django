@@ -1,4 +1,4 @@
-##-----Program to find thatn if two geo coordinates are given along with the radius 
+##-----Program to find that if two geo coordinates are given along with the radius 
 -----the find 2nd point will lie within the curcumference or not: -----##
 
 lst = [(29.38305, 79.46473), (29.38291, 79.46472), (29.38298, 79.46483), (29.38298, 79.46483), (29.38304, 79.46489), (29.38293, 79.46506), (29.38304, 79.46506), (29.38309, 79.46501)]
