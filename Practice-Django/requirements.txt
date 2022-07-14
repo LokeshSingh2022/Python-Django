@@ -1,0 +1,6 @@
+Package    Version
+---------- -------
+pip        22.1.2
+setuptools 62.6.0
+sockets    1.0.0
+wheel      0.37.1
