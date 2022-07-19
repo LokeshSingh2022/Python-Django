@@ -1,9 +1,9 @@
 const crypto = require('crypto');
 
 const digest = 'sha256';
-const iterations = 100000;
+const iterations = 320000;
 const keyLength = 32;
-const saltSize = 8;
+const saltSize = 16;
 
 exports.hash = password => {
   return new Promise((resolve, reject) => {

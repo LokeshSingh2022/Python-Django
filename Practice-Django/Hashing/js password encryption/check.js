@@ -4,7 +4,7 @@ const password = "Skmd@9055";
 
 //const djangoPassword ="pbkdf2_sha256$320000$EkAhjshyeYYPvI3z9r12AB$KVvNP2lMpgx//MxJASzlwqJ5WrtdwnNxZaoYH3ybPMA=";
 
-const djangoPassword2 ="pbkdf2_sha256$320000$FbaZqRTtEUEVljgkwWDUPg==$up4V0DYda4tWqAd4WPLx8JY+77THQpJB1sFmJVtcOyQ="
+const djangoPassword2 ="pbkdf2_sha256$320000$8d17810a9384fe5dc53809$91XKiyq8vgkxx8/cYVVHVoWmczyw377ReyuMWcDWJXY="
 
 var validatePassword = function(key, string) {
   var parts = string.split("$");

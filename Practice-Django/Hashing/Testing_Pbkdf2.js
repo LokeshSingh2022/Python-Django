@@ -4,7 +4,7 @@ const password = 'p@ssw0rd';
 
 djangoHash.hash(password)
   .then(hash => {
-    console.log('Hashed: ', hash);
+    console.log('Password: ', hash);
 
     djangoHash.verify(password, hash)
       .then(result => {
