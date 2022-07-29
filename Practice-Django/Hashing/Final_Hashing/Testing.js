@@ -3,6 +3,6 @@ const HashPass = require('/home/lokeshsingh/Documents/Repos/Python-Django/Practi
 
 const password = 'password_12345'
 const HashedPass = HashPass.hashPassword(password)
-console.log("Password:- " + HashedPass)
 
+console.log("Password:- " + HashedPass)
 console.log("Result:- " + HashPass.verifyPassword(password,HashedPass))

@@ -18,17 +18,17 @@ module.exports = {
             this.hashAlg
         ).toString('base64')
         
-        return `${"pbkdf2"}$${this.hashAlg}$${this.keyLength}$${this.iterations}$${salt}$${pbkdf2}`
+        return `${"pbkdf2_sha256"}$${this.iterations}$${salt}$${pbkdf2}`
     },
    
     verifyPassword(givenPassword, hashedPassword) {
         let splits = hashedPassword.split('$')
         
-        let hashAlg = splits[1]
-        let keyLength = parseInt(splits[2])
-        let iterations = parseInt(splits[3])
-        let salt = splits[4]
-        let pbkdf2 = splits[5]
+        let hashAlg = 'sha256'
+        let keyLength = 32
+        let iterations = parseInt(splits[1])
+        let salt = splits[2]
+        let pbkdf2 = splits[3]
 
         let testPbkdf2 = crypto.pbkdf2Sync(
             givenPassword,
