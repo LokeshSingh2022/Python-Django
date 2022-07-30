@@ -5,7 +5,6 @@ const crypto = require('crypto')
     const hashAlg = 'sha256'
     const iterations =  320000
 
-    
 
     var hashPassword = function(plainText) {
         let salt = crypto.randomBytes(32).toString('base64')

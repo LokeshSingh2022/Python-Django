@@ -1,10 +1,10 @@
 var pbkdf2 = require("pbkdf2");
 
-const password = "password_12345";
+const password = "12345_Hashing";
 
 //const djangoPassword ="pbkdf2_sha256$320000$EkAhjshyeYYPvI3z9r12AB$KVvNP2lMpgx//MxJASzlwqJ5WrtdwnNxZaoYH3ybPMA=";
 
-const djangoPassword2 ="pbkdf2_sha256$320000$IgJL2QV+FxLFxQm5tvTafVF14lYWVan6bttkEhiJuCY=$wHyunpK6GyOR+XxZNW0Hk/T+Vl992BkWwJcx5m5CXag="
+const djangoPassword2 ="pbkdf2_sha256$320000$LbRDP0HSPPbOpLznZog0txwF1z7puWK+LOIP4XcaYOA=$sG+AXUU0BEWTTDfqxhHBQzDnXLq4P5N8qGyA4XR2514="
 
 var validatePassword = function(key, string) {
   var parts = string.split("$");
