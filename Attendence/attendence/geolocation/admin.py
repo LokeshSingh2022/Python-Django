@@ -7,15 +7,5 @@ class UserAdmin(admin.ModelAdmin):
     ordering = ('Id',)
 
 
-
-
-
-
-
-
-
-
-
-
 # Register your models here.
 admin.site.register(userDetail, UserAdmin)
