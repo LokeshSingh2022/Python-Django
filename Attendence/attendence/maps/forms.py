@@ -1,0 +1,11 @@
+from django import forms
+
+from .models import *
+
+class CoordinatesForm(forms.ModelForm):
+    lat = models.CharField(max_length=20)
+    lon = models.CharField(max_length=20)
+
+    class Meta:
+        model = Coordenadas
+        fields = '__all__'
