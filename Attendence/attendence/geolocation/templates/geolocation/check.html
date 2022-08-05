@@ -27,7 +27,6 @@
                 position: new google.maps.LatLng(coordinates[i][1], coordinates[i][2]),
                 map: map,
                 fillColor: "blue",
-                draggable: true,
                 animation: google.maps.Animation.BOUNCE,
             });
             google.maps.event.addListener(marker, 'click', (function (marker, i) {
