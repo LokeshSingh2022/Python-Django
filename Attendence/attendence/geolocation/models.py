@@ -1,3 +1,4 @@
+from tabnanny import verbose
 from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.contrib.auth.models import User
@@ -19,12 +20,7 @@ class userDetail(models.Model):
     fld_time = models.TimeField(blank=True, null=True)
     fld_created_datetime = models.DateTimeField(auto_now_add=True)
 
-    def json(self):
-        return {
-            'fld_latitude' : self.fld_latitude,
-            'fld_longitude' : self.fld_longitude,
-        }
-
     class Meta:
         managed = True
         db_table = 'userDetail'
+        
